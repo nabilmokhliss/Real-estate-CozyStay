@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Villa California",
+    "price": "400",
+    "detail": "Route d'Agadir km 18, Marrakech, Maroc",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Villa Diamant Bleu",
+    "price": "350",
+    "detail": "Route d'Agadir km 18, Marrakech, Maroc",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Villa Perla",
+    "price": "270",
+    "detail": "565 Route de la résistance, Tanger Maroc",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Villa Manara",
+    "price": "365",
+    "detail": "22, boulevard l'océan, Fes, Maroc",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Villa Soft Sun",
+    "price": "390",
+    "detail": "Route d'Ourika km 11, Marrakech, Maroc",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Villa Luxury",
+    "price": "279",
+    "detail": "49 Rue Californie, Casablanca, Maroc",
+    "image": "./r3.png"
+  }
+]

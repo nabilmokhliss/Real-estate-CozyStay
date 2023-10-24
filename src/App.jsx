@@ -1,38 +1,28 @@
-import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
 import "./App.css";
-import Companies from "./components/Companies/Companies";
-import Residencies from "./components/Residencies/Residencies";
-import Value from "./components/Value/Value";
-import Contact from "./components/Contact/Contact";
-import GetStarted from "./components/GetStarted/GetStarted";
-import Footer from "./components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
-import Proprieties from "./pages/Proprieties/Proprieties";
+import Home from "./pages/Home/Home";
+import Properties from "./pages/Properties/Properties";
 import About from "./pages/AboutUs/About";
 import ContactUs from "./pages/ContactUs/ContactUs";
+import Registration from "./pages/Registration/Registration";
+import Login from "./pages/Login/Login";
+import Appartement from "./pages/Appartement/Appartement";
+import Villa from "./pages/Villa/Villa";
+import PropertiesDetails from "./pages/PropertiesDetails/PropertiesDetails";
 
 function App() {
   return (
-    <div className="App">
-      {/* <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/proprieties" element={<Proprieties />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<ContactUs />} />
-      </Routes> */}
-      <div>
-        <div className="white-gradient" />
-        <Header />
-        <Hero />
-      </div>
-      <Companies />
-      <Residencies />
-      <Value />
-      <Contact />
-      <GetStarted />
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/properties" element={<Properties />} />
+      <Route path="/properties/villa" element={<Villa />} />
+      <Route path="/properties/appartement" element={<Appartement />} />
+      <Route path="/properties/villa/:id" element={<PropertiesDetails />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<ContactUs />} />
+      <Route path="/signup" element={<Registration />} />
+      <Route path="/signin" element={<Login />} />
+    </Routes>
   );
 }
 

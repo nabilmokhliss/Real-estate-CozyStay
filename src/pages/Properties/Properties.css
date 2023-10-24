@@ -1,0 +1,74 @@
+/* Style de base pour la carte */
+.container-card {
+  position: relative;
+  margin: 20px;
+  overflow: hidden;
+  width: 700px; /* Ajustez la largeur et la hauteur selon vos besoins */
+  height: 450px;
+}
+
+/* Style de l'image à l'intérieur de la carte */
+.container-card img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s; /* Transition pour un effet de zoom au survol */
+}
+
+/* Style de l'overlay */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Couleur de fond de l'overlay avec opacité */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* L'overlay est initialement invisible */
+  transition: opacity 0.3s; /* Transition pour l'opacité au survol */
+}
+
+/* Style du contenu de l'overlay */
+.content {
+  text-align: center;
+}
+
+/* Afficher l'overlay au survol */
+.container-card:hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* Effet de zoom au survol */
+.container-card:hover img {
+  transform: scale(
+    1.05
+  ); /* Ajustez la valeur pour le niveau de zoom souhaité */
+}
+
+.content h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.primaryText h1,
+h3 {
+  padding: 10px;
+  text-align: center;
+}
+
+.primaryText h3 {
+  font-size: 2rem;
+}
+
+.innerWidth .proper-parag {
+  text-align: justify;
+  font-size: 1.3rem;
+}

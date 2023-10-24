@@ -1,0 +1,41 @@
+.about-bg {
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.title-abt {
+  text-align: center;
+  font-size: 3.7rem;
+}
+.about-c {
+  display: flex; /* Utilisez Flexbox */
+  justify-content: space-between; /* Répartit l'espace disponible entre les éléments */
+  align-items: center; /* Aligne les éléments en haut */
+}
+
+.left-a {
+  flex: 1; /* Partage l'espace disponible de manière égale entre les colonnes */
+  padding: 20px; /* Ajoutez de l'espacement autour du contenu */
+}
+
+.right-a {
+  flex: 1; /* Partage l'espace disponible de manière égale entre les colonnes */
+  padding: 20px; /* Ajoutez de l'espacement autour du contenu */
+}
+
+.image-co {
+  /* width: 30rem;
+  height: 35rem;
+  overflow: hidden;
+  border-radius: 15rem 15rem 0 0;
+  border: 8px solid rgba(255, 255, 255, 0.12); */
+}
+
+.image-co > img {
+  width: 100%;
+  height: auto;
+}
+
+p,
+ul,
+span {
+  font-size: 1.3rem;
+}

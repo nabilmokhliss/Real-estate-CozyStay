@@ -13,7 +13,7 @@ const GetStarted = () => {
             Trouvez votre logement
           </span>
 
-          <button className="button">
+          <button className="basicBtn">
             <a href="mailto:nabilmokhliss97@gmail.com">C'est Parti !</a>
           </button>
         </div>

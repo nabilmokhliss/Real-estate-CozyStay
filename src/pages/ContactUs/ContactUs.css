@@ -1,0 +1,91 @@
+.img-bg {
+  background-image: linear-gradient(
+      rgba(248, 201, 201, 0.6),
+      rgba(124, 127, 199, 0.6)
+    ),
+    url(../../../public/maison-design-villa-moderne-salon-decloisonne-chambre-privee-aile-grande-terrasse-intimite.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; /* Centrer l'image horizontalement et verticalement */
+  /* Vous pouvez également ajouter une opacité au fond si nécessaire */
+  /* background-color: rgba(255, 255, 255, 0.7); */
+}
+.orangeText {
+  font-size: 3rem;
+}
+
+.left-a h1 {
+  font-weight: 500;
+  font-size: 3.1rem;
+  line-height: 4rem;
+}
+.subtitle {
+  color: #185279;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+form .user-details .input-form {
+  margin-bottom: 15px;
+}
+
+.user-details .input-form .details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-form input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.user-details .input-form textarea {
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  padding-top: 8px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.user-details .input-form input:focus,
+.user-details .input-form input:valid,
+.user-details .input-form textarea:focus {
+  border-color: #9b59b6;
+}
+
+form .button {
+  height: 45px;
+  margin: 20px 0px;
+}
+
+@media (max-width: 584px) {
+  form .user-details .input-form {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+}
+
+/* .gender-details .category label {
+      display: flex;
+      align-items: center;
+  }
+  
+  .gender-details .category .dot {
+      height: 18px;
+      width: 18px;
+      background-color: #D9D9D9;
+      border-radius: 50%;
+      margin-right: 10px;
+      border: 5px solid transparent;
+  } */

@@ -33,8 +33,17 @@ a {
   row-gap: 2rem;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap; /* c'était wrap */
 }
+
+.flexCenterWrap { /* pour wrap des résidences */
+  display: flex;
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* c'était wrap */
+}
+
 .flexStart {
   display: flex;
   justify-content: flex-start;
@@ -82,8 +91,7 @@ a {
   font-weight: 600;
 }
 
-
-.button {
+.basicBtn {
   font-weight: 500;
   padding: 0.6rem 1.4rem;
   color: white;
@@ -94,11 +102,10 @@ a {
   transition: all 300ms ease-in;
 }
 
-.button:hover {
+.basicBtn:hover {
   cursor: pointer;
   transform: scale(1.1);
 }
-
 
 /* media queries */
 @media (min-width: 1536px) {

@@ -50,6 +50,7 @@
 .search-bar > input {
   border: none;
   outline: none;
+  width: 70%;
 }
 
 .stats {
@@ -57,11 +58,11 @@
   justify-content: space-between;
 }
 
-.stat>:nth-child(1) {
+.stat > :nth-child(1) {
   font-size: 2rem;
 }
 
-.stat>:nth-child(1)>:last-child{
+.stat > :nth-child(1) > :last-child {
   color: orange;
 }
 

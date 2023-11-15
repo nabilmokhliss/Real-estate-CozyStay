@@ -5,6 +5,9 @@
     "price": "400",
     "detail": "Route d'Agadir km 18, Marrakech, Maroc",
     "image": "../../public/r1.png",
+    "room": 4,
+    "shower": 2,
+    "bed": 2,
     "description": "Cette superbe villa de luxe est l'endroit idéal pour des vacances inoubliables. Avec trois chambres spacieuses et deux salles de bains élégantes, elle peut accueillir confortablement votre famille ou vos amis. La villa est dotée d'une piscine privée scintillante, idéale pour se rafraîchir par une chaude journée d'été, et d'un vaste jardin luxuriant pour vous détendre et profiter de la nature."
   },
   {
@@ -13,6 +16,9 @@
     "price": "350",
     "detail": "Route d'Agadir km 18, Marrakech, Maroc",
     "image": "../../public/r2.png",
+    "room": 4,
+    "shower": 2,
+    "bed": 2,
     "description": "Cette superbe villa de luxe est l'endroit idéal pour des vacances inoubliables. Avec trois chambres spacieuses et deux salles de bains élégantes, elle peut accueillir confortablement votre famille ou vos amis. La villa est dotée d'une piscine privée scintillante, idéale pour se rafraîchir par une chaude journée d'été, et d'un vaste jardin luxuriant pour vous détendre et profiter de la nature."
   },
   {
@@ -21,6 +27,9 @@
     "price": "270",
     "detail": "565 Route de la résistance, Tanger Maroc",
     "image": "../../public/r3.png",
+    "room": 4,
+    "shower": 2,
+    "bed": 2,
     "description": "Cette superbe villa de luxe est l'endroit idéal pour des vacances inoubliables. Avec trois chambres spacieuses et deux salles de bains élégantes, elle peut accueillir confortablement votre famille ou vos amis. La villa est dotée d'une piscine privée scintillante, idéale pour se rafraîchir par une chaude journée d'été, et d'un vaste jardin luxuriant pour vous détendre et profiter de la nature."
   },
   {
@@ -29,6 +38,9 @@
     "price": "365",
     "detail": "22, boulevard l'océan, Fes, Maroc",
     "image": "../../public/r1.png",
+    "room": 4,
+    "shower": 2,
+    "bed": 2,
     "description": "Cette superbe villa de luxe est l'endroit idéal pour des vacances inoubliables. Avec trois chambres spacieuses et deux salles de bains élégantes, elle peut accueillir confortablement votre famille ou vos amis. La villa est dotée d'une piscine privée scintillante, idéale pour se rafraîchir par une chaude journée d'été, et d'un vaste jardin luxuriant pour vous détendre et profiter de la nature."
   },
   {
@@ -37,6 +49,9 @@
     "price": "390",
     "detail": "Route d'Ourika km 11, Marrakech, Maroc",
     "image": "../../public/r2.png",
+    "room": 4,
+    "shower": 2,
+    "bed": 2,
     "description": "Cette superbe villa de luxe est l'endroit idéal pour des vacances inoubliables. Avec trois chambres spacieuses et deux salles de bains élégantes, elle peut accueillir confortablement votre famille ou vos amis. La villa est dotée d'une piscine privée scintillante, idéale pour se rafraîchir par une chaude journée d'été, et d'un vaste jardin luxuriant pour vous détendre et profiter de la nature."
   },
   {
@@ -45,6 +60,9 @@
     "price": "279",
     "detail": "49 Rue Californie, Casablanca, Maroc",
     "image": "../../public/r3.png",
+    "room": 4,
+    "shower": 2,
+    "bed": 2,
     "description": "Cette superbe villa de luxe est l'endroit idéal pour des vacances inoubliables. Avec trois chambres spacieuses et deux salles de bains élégantes, elle peut accueillir confortablement votre famille ou vos amis. La villa est dotée d'une piscine privée scintillante, idéale pour se rafraîchir par une chaude journée d'été, et d'un vaste jardin luxuriant pour vous détendre et profiter de la nature."
   }
 ]

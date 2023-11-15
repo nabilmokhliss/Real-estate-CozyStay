@@ -5,6 +5,9 @@ import data from "../../utils/slider.json";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 
+import { FaBed, FaShower } from "react-icons/fa";
+import { MdMeetingRoom } from "react-icons/md";
+
 const PropertiesDetails = () => {
   const { id } = useParams(); // Obtenez l'ID de la résidence à partir des paramètres d'URL
 
@@ -16,6 +19,12 @@ const PropertiesDetails = () => {
   if (!selectedResidence) {
     return <div>Résidence non trouvée</div>;
   }
+
+  const options = Array.from({ length: 11 }, (_, i) => (
+    <option key={i} value={i}>
+      {i}
+    </option>
+  ));
 
   return (
     <>
@@ -37,7 +46,34 @@ const PropertiesDetails = () => {
             <p className="primaryText">Prix : {selectedResidence.price} €</p>
             <p className="">Adresse : {selectedResidence.detail}</p>
 
-            <button className="basicBtn ReserveBtn">Réserver</button>
+            <form className="resForm" action="">
+              <div className="resFormDiv">
+                <span>Nombre d'adultes </span>
+                <select>{options}</select>
+              </div>
+              <div className="resFormDiv">
+                <span>Nombre d'enfants </span>
+                <select>{options}</select>
+              </div>
+
+              <div className="icoDetails">
+                <span>
+                  <FaShower size={30} />
+                  {selectedResidence.shower}
+                </span>
+                <span>
+                  <MdMeetingRoom size={30} />
+                  {selectedResidence.room}
+                </span>
+                <span>
+                  <FaBed size={30} />
+                  {selectedResidence.bed}
+                </span>
+              </div>
+              <div className="resFormDiv">
+                <button className="basicBtn ReserveBtn">Réserver</button>
+              </div>
+            </form>
           </div>
 
           {/* Ajoutez d'autres détails spécifiques de la résidence en fonction de vos données */}

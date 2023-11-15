@@ -1,3 +1,25 @@
 .ReserveBtn {
     width: 100%;
 }
+
+.resForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.resForm .resFormDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ReserveBtn {
+  width: 100%; /* Faites en sorte que le bouton de réservation couvre toute la largeur */
+}
+
+.icoDetails span:not(:last-child) {
+    margin-right: 50px;
+  }
+  

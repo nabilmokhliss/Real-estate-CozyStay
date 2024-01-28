@@ -1,0 +1,17 @@
+/* Ajoutez cela à votre fichier CSS */
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+   /* ou la largeur souhaitée pour votre Sidebar */
+  /* .sidebar-container {
+    width: 250px;
+  } */
+  
+  .content-container {
+    flex: 1; /* Pour que le contenu occupe tout l'espace disponible à droite du Sidebar */
+    padding: 1.5rem;
+  }
+  
